@@ -6,6 +6,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -35,6 +37,12 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 ul,

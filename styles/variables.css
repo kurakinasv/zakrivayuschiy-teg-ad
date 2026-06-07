@@ -1,1 +1,38 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-family-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-accent: 'PressStart2P', monospace;
+  --font-weight-card-text: 400;
+  --font-weight-card-header: 700;
+
+  --white: #ffffff;
+  --black: #000000;
+  --outline-color: #ffffff;
+  --red: #FF0000;
+
+  --content-width: clamp(375px, 100%, 696px);
+
+  --button-text-color: #ffffff;
+  --button-hover-bg: #000000;
+  --accent-color: #000000;
+
+  --bg-color-1: #d3d3d3;
+  --bg-color-2: #e7e7e7;
+  --bg-color-3: #1a1a1a;
+
+  --page-bg: repeating-linear-gradient(to right,
+      var(--bg-color-1) 0,
+      var(--bg-color-1) 2px,
+      transparent 2px,
+      transparent 4px),
+    repeating-linear-gradient(to bottom,
+      var(--bg-color-1) 0,
+      var(--bg-color-1) 2px,
+      transparent 2px,
+      transparent 4px),
+    linear-gradient(to bottom,
+      var(--bg-color-2) 0%,
+      var(--bg-color-2) 0.01%,
+      var(--bg-color-3) 100%);
+}
