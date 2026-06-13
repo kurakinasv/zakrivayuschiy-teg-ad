@@ -1,1 +1,1 @@
-https://github.com/kurakinasv/zakrivayuschiy-teg-ad
+https://kurakinasv.github.io/zakrivayuschiy-teg-ad/
